@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Simple Flask Site</title>
+    <style>
+        .highlight {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Super Simple Flask Site</h1>
+</header>
+<h1>Home Page</h1>
+<h2>Random Value: <span class="highlight">{{ rand_value | safe }}</span></h2>
+<p>Refresh the page to generate a new random value.</p>
+</body>
+</html>
